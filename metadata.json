@@ -1,0 +1,6 @@
+{
+  "name": "Opti-Inspect",
+  "description": "Aplikasi Inspeksi Operasional Building Service (Cleaning Service, Landscape, Security) Mobile HP dengan Analisis AI",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

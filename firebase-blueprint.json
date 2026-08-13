@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "inspections": {
+      "title": "Inspections",
+      "description": "Laporan hasil inspeksi staf lapangan untuk Opti-Inspect dan Opti-View",
+      "properties": {
+        "ticketNumber": { "type": "string" },
+        "businessUnit": { "type": "string" },
+        "serviceType": { "type": "string" },
+        "serviceName": { "type": "string" },
+        "areaName": { "type": "string" },
+        "subArea": { "type": "string" },
+        "itemWork": { "type": "string" },
+        "beforePhotoUrl": { "type": "string" },
+        "beforePhotoTimestamp": { "type": "string" },
+        "afterPhotoUrl": { "type": "string" },
+        "afterPhotoTimestamp": { "type": "string" },
+        "staffName": { "type": "string" },
+        "submittedAt": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["ticketNumber", "staffName", "status"]
+    }
+  }
+}
